@@ -4,8 +4,7 @@
 
 # > bilibili  B站出大陆,不懂？导入就完事了
 DOMAIN,api.bilibili.com,DomesticMedia
-DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
-
+DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
 # 广告部分,来源为网络('https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list')(有删减)
 
 // 后缀屏蔽部分
