@@ -138,7 +138,7 @@ DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 
-// 字母排序(广告部分)
+// 字母排序(广告屏蔽部分)
 # (A)
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
@@ -161,9 +161,6 @@ DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 # > ByteDance
 DOMAIN,ad.toutiao.com,REJECT
-# > BitAuto
-DOMAIN,adx.yiche.com,REJECT
-DOMAIN,log.ycapp.yiche.com,REJECT
 # > 百词斩
 DOMAIN,advertise.baicizhan.com,REJECT
 DOMAIN,advertise.baicizhan.org,REJECT
@@ -173,7 +170,7 @@ DOMAIN,galaxy.bjcathay.com,REJECT
 DOMAIN,mdrecv.app.cntvwb.cn,REJECT
 DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
 DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
-# > ChinaTelecom
+# > ChinaTelecom(中国电信)
 DOMAIN,ad.21cn.com,REJECT
 DOMAIN,ad.k.21cn.com,REJECT
 DOMAIN,admarket.21cn.com,REJECT
@@ -518,8 +515,6 @@ IP-CIDR,222.73.156.235/32,REJECT
 
 
 
-
-
 # Malware 恶意网站
 # > 快压
 # https://zhuanlan.zhihu.com/p/39534279
@@ -532,7 +527,7 @@ DOMAIN-SUFFIX,zryydi.com,REJECT
 # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn,REJECT
 DOMAIN,geo2.adobe.com,REJECT
-# > C&J Marketing 思杰马克丁软件
+# > C&J
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com,REJECT
 DOMAIN-SUFFIX,abbyychina.com,REJECT
@@ -593,7 +588,7 @@ DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 
 
-# steam 外出
+# steam 用代理
 DOMAIN-SUFFIX,fanatical.com,PROXY
 DOMAIN-SUFFIX,humblebundle.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,steamcommunity.com,PROXY
@@ -602,7 +597,7 @@ DOMAIN-SUFFIX,steamstatic.com,PROXY
 
 
 
-// Line 外出
+// Line 用代理
 DOMAIN-SUFFIX,lin.ee,PROXY
 DOMAIN-SUFFIX,line.me,PROXY
 DOMAIN-SUFFIX,line.naver.jp,PROXY,force-remote-dns
@@ -615,8 +610,11 @@ DOMAIN-SUFFIX,nhncorp.jp,PROXY
 DOMAIN-SUFFIX,nhncorp.us,PROXY
 DOMAIN-SUFFIX,nhncorp.hk,PROXY
 
-// cn
+// CN检测
 DOMAIN-SUFFIX,cn,DIRECT
+
+
+
 
 
 
