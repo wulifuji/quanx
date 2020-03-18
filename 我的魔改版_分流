@@ -684,20 +684,19 @@ DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 
 # 真正的分流部分
+// steam 用代理
+DOMAIN-SUFFIX,fanatical.com,节点
+DOMAIN-SUFFIX,humblebundle.com,节点,force-remote-dns
+DOMAIN-SUFFIX,steamcommunity.com,节点
+DOMAIN-SUFFIX,steampowered.com,节点
+DOMAIN-SUFFIX,steamstatic.com,节点
 // CN检测,中国域名走直连
 DOMAIN-SUFFIX,cn,DIRECT
-// steam 用代理
-DOMAIN-SUFFIX,fanatical.com,PROXY
-DOMAIN-SUFFIX,humblebundle.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,steamcommunity.com,PROXY
-DOMAIN-SUFFIX,steampowered.com,PROXY
-DOMAIN-SUFFIX,steamstatic.com,PROXY
-
 
 
 
 
 // 剩下的全走代理
-FINAL,PROXY
+FINAL,节点
 
 
