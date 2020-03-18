@@ -81,7 +81,7 @@ DOMAIN-SUFFIX,gvt3.com,Google
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
 DOMAIN-KEYWORD,google,Google
 DOMAIN-KEYWORD,blogspot,Google
-# Vedio 国外视频网站,建议找些Netflix节点,关键是不卡
+# Vedio 国外视频网站,建议找些Netflix,关键是不卡
 # >> Hulu
 DOMAIN-SUFFIX,hulu.com,Vedio
 DOMAIN-SUFFIX,huluim.com,Vedio
@@ -1033,11 +1033,11 @@ IP-CIDR,185.188.33.0/24,DIRECT,no-resolve
 IP-CIDR,185.188.34.0/24,DIRECT,no-resolve
 IP-CIDR,185.188.35.0/24,DIRECT,no-resolve
 // steam 用代理
-DOMAIN-SUFFIX,fanatical.com,节点
-DOMAIN-SUFFIX,humblebundle.com,节点,force-remote-dns
-DOMAIN-SUFFIX,steamcommunity.com,节点
-DOMAIN-SUFFIX,steampowered.com,节点
-DOMAIN-SUFFIX,steamstatic.com,节点
+DOMAIN-SUFFIX,fanatical.com, 默认节点
+DOMAIN-SUFFIX,humblebundle.com, 默认节点,force-remote-dns
+DOMAIN-SUFFIX,steamcommunity.com, 默认节点
+DOMAIN-SUFFIX,steampowered.com, 默认节点
+DOMAIN-SUFFIX,steamstatic.com, 默认节点
 // 国内常见网页
 # DOMAIN-SUFFIX
 DOMAIN-SUFFIX,12306.com,DIRECT
@@ -1133,6 +1133,6 @@ DOMAIN-SUFFIX,cn,DIRECT
 
 
 // 剩下的全走代理
-FINAL,节点
+FINAL, 默认节点
 
 
