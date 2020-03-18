@@ -1,12 +1,123 @@
 # 圈X(QuantumultX)魔改版配置文件，别问我为什么没有什么，我留着自己用的，好伐？
+# 用时,引用在分流里
 
 
 
-# > bilibili  为B站开标签
+# 策略(加在这里)
+# > Apple 用代理,会更快？
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,crashlytics.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+IP-CIDR,17.0.0.0/8,Apple
+# > bilibili 为B站开标签,建议直连
 DOMAIN,api.bilibili.com,Bilibili
+DOMAIN-SUFFIX,acgvideo.com,Bilibili
+DOMAIN-SUFFIX,biliapi.com,Bilibili
+DOMAIN-SUFFIX,biliapi.net,Bilibili
+DOMAIN-SUFFIX,bilibili.com,Bilibili
+DOMAIN-SUFFIX,bilibili.tv,Bilibili
+DOMAIN-SUFFIX,hdslb.com,Bilibili
+# > Google 谷歌时可以不要求网速,但要低延迟
+DOMAIN-SUFFIX,ampproject.org,Google
+DOMAIN-SUFFIX,abc.xyz,Google
+DOMAIN-SUFFIX,android.com,Google
+DOMAIN-SUFFIX,androidify.com,Google
+DOMAIN-SUFFIX,dialogflow.com,Google
+DOMAIN-SUFFIX,autodraw.com,Google
+DOMAIN-SUFFIX,capitalg.com,Google
+DOMAIN-SUFFIX,certificate-transparency.org,Google
+DOMAIN-SUFFIX,chrome.com,Google
+DOMAIN-SUFFIX,chromeexperiments.com,Google
+DOMAIN-SUFFIX,chromestatus.com,Google
+DOMAIN-SUFFIX,chromium.org,Google
+DOMAIN-SUFFIX,creativelab5.com,Google
+DOMAIN-SUFFIX,debug.com,Google
+DOMAIN-SUFFIX,deepmind.com,Google
+DOMAIN-SUFFIX,firebaseio.com,Google
+DOMAIN-SUFFIX,getmdl.io,Google
+DOMAIN-SUFFIX,ggpht.com,Google
+DOMAIN-SUFFIX,gmail.com,Google
+DOMAIN-SUFFIX,gmodules.com,Google
+DOMAIN-SUFFIX,godoc.org,Google
+DOMAIN-SUFFIX,golang.org,Google
+DOMAIN-SUFFIX,gstatic.com,Google
+DOMAIN-SUFFIX,gv.com,Google
+DOMAIN-SUFFIX,gwtproject.org,Google
+DOMAIN-SUFFIX,itasoftware.com,Google
+DOMAIN-SUFFIX,madewithcode.com,Google
+DOMAIN-SUFFIX,material.io,Google
+DOMAIN-SUFFIX,polymer-project.org,Google
+DOMAIN-SUFFIX,admin.recaptcha.net,Google
+DOMAIN-SUFFIX,recaptcha.net,Google
+DOMAIN-SUFFIX,shattered.io,Google
+DOMAIN-SUFFIX,synergyse.com,Google
+DOMAIN-SUFFIX,tensorflow.org,Google
+DOMAIN-SUFFIX,tfhub.dev,Google
+DOMAIN-SUFFIX,tiltbrush.com,Google
+DOMAIN-SUFFIX,waveprotocol.org,Google
+DOMAIN-SUFFIX,waymo.com,Google
+DOMAIN-SUFFIX,webmproject.org,Google
+DOMAIN-SUFFIX,webrtc.org,Google
+DOMAIN-SUFFIX,whatbrowser.org,Google
+DOMAIN-SUFFIX,widevine.com,Google
+DOMAIN-SUFFIX,x.company,Google
+DOMAIN-SUFFIX,youtu.be,Google
+DOMAIN-SUFFIX,yt.be,Google
+DOMAIN-SUFFIX,ytimg.com,Google
+DOMAIN-SUFFIX,appspot.com,Google
+DOMAIN-SUFFIX,blogger.com,Google
+DOMAIN-SUFFIX,getoutline.org,Google
+DOMAIN-SUFFIX,gvt0.com,Google
+DOMAIN-SUFFIX,gvt1.com,Google
+DOMAIN-SUFFIX,gvt3.com,Google
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
+DOMAIN-KEYWORD,google,Google
+DOMAIN-KEYWORD,blogspot,Google
+# Vedio 国外视频网站,建议找些Netflix节点,关键是不卡
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,Vedio
+DOMAIN-SUFFIX,huluim.com,Vedio
+DOMAIN-SUFFIX,hulustream.com,Vedio
+# >> Hulu日本
+DOMAIN-SUFFIX,happyon.jp,Vedio
+DOMAIN-SUFFIX,hulu.jp,Vedio
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,Vedio
+DOMAIN-SUFFIX,phprcdn.com,Vedio
+DOMAIN-SUFFIX,pornhub.com,Vedio
+DOMAIN-SUFFIX,pornhubpremium.com,Vedio
+# > TikTok 现行不拔卡方法失效,反正我是没成功过,最新版建议拔卡
+USER-AGENT,TikTok*,Vedio
+DOMAIN-SUFFIX,muscdn.com,Vedio
+DOMAIN-SUFFIX,musical.ly,Vedio
+DOMAIN-SUFFIX,tiktokv.com,Vedio
+DOMAIN-SUFFIX,tiktokcdn.com,Vedio
+DOMAIN-KEYWORD,-tiktokcdn-com,Vedio
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,Vedio
+USER-AGENT,YouTube*,Vedio
+DOMAIN-SUFFIX,googlevideo.com,Vedio
+DOMAIN-SUFFIX,youtube.com,Vedio
+DOMAIN,youtubei.googleapis.com,Vedio
+# > Speed Test 选择想要测速的节点,配合Speed Test使用
+DOMAIN-SUFFIX,speedtest.net,Speed Test
+DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
+DOMAIN,speedtest.macpaw.com,Speed Test
+
+
 
 
 # 广告部分,来源为网络('https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list')(有删减)
+# 经实测,只能屏蔽开屏广告;应用内广告需要'解析',没有抓包工具的我瑟瑟发抖;好吧,我不会
 // 后缀屏蔽部分
 DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-SUFFIX,adcolony.com,REJECT
@@ -138,6 +249,7 @@ DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 
+
 // 字母排序(广告屏蔽部分)
 # (A)
 # > Apple
@@ -230,11 +342,6 @@ DOMAIN,ark.letv.com,REJECT
 DOMAIN,emma-414870e223.huodonghezi.com,REJECT
 DOMAIN,g3.letv.com,REJECT
 DOMAIN,n.mark.letv.com,REJECT
-# > 乐播投屏
-DOMAIN,ad.hpplay.cn,REJECT
-DOMAIN,adcdn.hpplay.cn,REJECT
-DOMAIN,adeng.hpplay.cn,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
 # (M)
 # > MI
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
@@ -242,13 +349,8 @@ DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
 DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
 DOMAIN,adv.sec.intl.miui.com,REJECT
 DOMAIN,adv.sec.miui.com,REJECT
-# > 墨迹天气
-DOMAIN,ad.api.moji.com,REJECT
-DOMAIN,adlaunch.moji.com,REJECT
-DOMAIN,ads.mojicdn.com,REJECT
-DOMAIN,v1.log.moji.com,REJECT
 # (N)
-# > NetEase
+# > NetEase(网易)
 DOMAIN,ad.bn.netease.com,REJECT
 DOMAIN,ad.yixin.im,REJECT
 DOMAIN,admusicpic.music.126.net,REJECT
@@ -350,10 +452,6 @@ DOMAIN,iyes.youku.com,REJECT
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
-
-
-
-
 
 
 # Internet Service Providers Hijacking 运营商劫持
@@ -513,8 +611,6 @@ IP-CIDR,220.115.251.25/32,REJECT
 IP-CIDR,222.73.156.235/32,REJECT
 
 
-
-
 # Malware 恶意网站
 # > 快压
 # https://zhuanlan.zhihu.com/p/39534279
@@ -587,33 +683,15 @@ DOMAIN-SUFFIX,zbrushcn.com,REJECT
 DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 
-
-# steam 用代理
+# 真正的分流部分
+// CN检测,中国域名走直连
+DOMAIN-SUFFIX,cn,DIRECT
+// steam 用代理
 DOMAIN-SUFFIX,fanatical.com,PROXY
 DOMAIN-SUFFIX,humblebundle.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,steamcommunity.com,PROXY
 DOMAIN-SUFFIX,steampowered.com,PROXY
 DOMAIN-SUFFIX,steamstatic.com,PROXY
-
-
-
-// Line 用代理
-DOMAIN-SUFFIX,lin.ee,PROXY
-DOMAIN-SUFFIX,line.me,PROXY
-DOMAIN-SUFFIX,line.naver.jp,PROXY,force-remote-dns
-DOMAIN-SUFFIX,line.naver.us,PROXY,force-remote-dns
-DOMAIN-SUFFIX,line.naver.hk,PROXY,force-remote-dns
-DOMAIN-SUFFIX,line-apps.com,PROXY
-DOMAIN-SUFFIX,line-cdn.net,PROXY
-DOMAIN-SUFFIX,line-scdn.net,PROXY
-DOMAIN-SUFFIX,nhncorp.jp,PROXY
-DOMAIN-SUFFIX,nhncorp.us,PROXY
-DOMAIN-SUFFIX,nhncorp.hk,PROXY
-
-// CN检测
-DOMAIN-SUFFIX,cn,DIRECT
-
-
 
 
 
