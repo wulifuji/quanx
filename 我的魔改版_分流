@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,
 # > bilibili 为B站开标签,直连
 DOMAIN,api.bilibili.com,Bilibili
 DOMAIN-SUFFIX,acgvideo.com,Bilibili
