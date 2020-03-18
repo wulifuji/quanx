@@ -1019,7 +1019,7 @@ DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 # 自加
 host,pingma.qq.com, reject
-host-suffix,umeng.com,recjet
+host-keyword,umeng,recjet
 
 
 # 真正的分流部分
