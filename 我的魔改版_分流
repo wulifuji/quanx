@@ -1018,8 +1018,8 @@ DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 
 # 自加
-host,pingma.qq.com, reject
-host-keyword,umeng,recjet
+host,pingma.qq.com, REJEC
+host-keyword,umeng,REJEC
 
 
 # 真正的分流部分
