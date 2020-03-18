@@ -83,26 +83,26 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
 DOMAIN-KEYWORD,google,Google
 DOMAIN-KEYWORD,blogspot,Google
 # Vedio 国外视频网站,建议找些Netflix节点,关键是不卡
-# > Hulu
+# >> Hulu
 DOMAIN-SUFFIX,hulu.com,Vedio
 DOMAIN-SUFFIX,huluim.com,Vedio
 DOMAIN-SUFFIX,hulustream.com,Vedio
 # >> Hulu日本
 DOMAIN-SUFFIX,happyon.jp,Vedio
 DOMAIN-SUFFIX,hulu.jp,Vedio
-# > Pornhub
+# >> Pornhub
 DOMAIN-SUFFIX,phncdn.com,Vedio
 DOMAIN-SUFFIX,phprcdn.com,Vedio
 DOMAIN-SUFFIX,pornhub.com,Vedio
 DOMAIN-SUFFIX,pornhubpremium.com,Vedio
-# > TikTok 现行不拔卡方法失效,反正我是没成功过,最新版建议拔卡
+# >> TikTok 现行不拔卡方法失效,反正我是没成功过,最新版建议拔卡(不包括旧版安装的办法)
 USER-AGENT,TikTok*,Vedio
 DOMAIN-SUFFIX,muscdn.com,Vedio
 DOMAIN-SUFFIX,musical.ly,Vedio
 DOMAIN-SUFFIX,tiktokv.com,Vedio
 DOMAIN-SUFFIX,tiktokcdn.com,Vedio
 DOMAIN-KEYWORD,-tiktokcdn-com,Vedio
-# > YouTube
+# >> YouTube
 USER-AGENT,com.google.ios.youtube*,Vedio
 USER-AGENT,YouTube*,Vedio
 DOMAIN-SUFFIX,googlevideo.com,Vedio
