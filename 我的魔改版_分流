@@ -1017,9 +1017,16 @@ DOMAIN-SUFFIX,zbrushcn.com,REJECT
 DOMAIN-SUFFIX,zhzzx.com,REJECT
 
 
+# 自加
+host,pingma.qq.com, reject
+host-suffix,umeng.com,recjet
+
+
 # 真正的分流部分
 // 腾讯IP
 IP-CIDR,134.175.0.0/16,DIRECT
+IP-CIDR,61.151.165.0,DIRECT
+IP-CIDR,61.151.165.100,DIRECT
 // 内网
 DOMAIN-SUFFIX,local,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
@@ -1104,6 +1111,13 @@ USER-AGENT,TIM*,国内常用网站
 USER-AGENT,ting_en,国内常用网站
 USER-AGENT,WebTorrent*,国内常用网站
 USER-AGENT,WeChat*,国内常用网站
+
+
+# 另需添加
+host-keyword,chaoxing,国内常用网站
+
+
+
 //定位相关
 USER-AGENT,com.apple.geod*,DIRECT
 USER-AGENT,com.apple.Maps,DIRECT
@@ -1128,8 +1142,6 @@ USER-AGENT,Siri*,DIRECT
 USER-AGENT,*siri*,DIRECT
 // CN检测,中国域名走直连
 DOMAIN-SUFFIX,cn,DIRECT
-
-
 
 
 // 剩下的全走代理
