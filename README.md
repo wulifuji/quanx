@@ -29,4 +29,6 @@
 
 >>三、图标  
 >>>1.[几个图标](https://github.com/crossutility/Quantumult-X/tree/master/icon-samples "带复写")  
->>>2.[Qure图标集](https://github.com/Koolson/Qure "齐全")
+>>>2.[Qure图标集](https://github.com/Koolson/Qure "齐全")  
+
+## 当然了，计划赶不上变化
