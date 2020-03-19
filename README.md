@@ -19,10 +19,9 @@
 >>>>3.Vedio(国外流媒体)
 
 >>>2.去广告  
->>>>引用[最完善的 iOS 翻墙规则](https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf "Shadowrocket-ADBlock-Rules")  
->>>>再加上一些整合  
->>>>可能会有冗余
+>>>>1.引用[最完善的 iOS 翻墙规则](https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf "Shadowrocket-ADBlock-Rules")  
+>>>>2.再加上一些整合  
+>>>>3.可能会有冗余
 
-
->>二、复写模块
-      
+>>二、复写模块  
+>>>1.使用我的库原有复写规则
