@@ -9,10 +9,12 @@ host,pingma.qq.com,REJECT
 host,restapi.amap.com,REJECT
 
 
-# D_S
+# D_S    DOMAIN-SUFFIX,,REJECT
 # (4)
 DOMAIN-SUFFIX,4399sy.com,REJECT
 # (F)
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
 # (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
+# (U)
+DOMAIN-SUFFIX,umengcloud,REJECT
