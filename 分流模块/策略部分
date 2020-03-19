@@ -144,5 +144,3 @@ DOMAIN,youtubei.googleapis.com,Vedio
 DOMAIN-SUFFIX,speedtest.net,Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
 DOMAIN,speedtest.macpaw.com,Speed Test
-# > 国内常见网站
-GEOIP,CN,国内常见网站
