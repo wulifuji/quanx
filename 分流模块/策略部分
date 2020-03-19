@@ -1,1 +1,148 @@
 # 这是策略部分
+# 策略(加在这里)
+# > Apple 用代理,会更快？
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,crashlytics.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+DOMAIN,itunes.apple.com,Apple
+IP-CIDR,17.0.0.0/8,Apple
+# > Bilibili 为B站开标签,直连
+DOMAIN,api.bilibili.com,Bilibili
+DOMAIN-SUFFIX,acgvideo.com,Bilibili
+DOMAIN-SUFFIX,biliapi.com,Bilibili
+DOMAIN-SUFFIX,biliapi.net,Bilibili
+DOMAIN-SUFFIX,bilibili.com,Bilibili
+DOMAIN-SUFFIX,bilibili.tv,Bilibili
+DOMAIN-SUFFIX,hdslb.com,Bilibili
+# > Google 谷歌时可以不要求网速,但要低延迟
+DOMAIN-SUFFIX,ampproject.org,Google
+DOMAIN-SUFFIX,abc.xyz,Google
+DOMAIN-SUFFIX,android.com,Google
+DOMAIN-SUFFIX,androidify.com,Google
+DOMAIN-SUFFIX,dialogflow.com,Google
+DOMAIN-SUFFIX,autodraw.com,Google
+DOMAIN-SUFFIX,capitalg.com,Google
+DOMAIN-SUFFIX,certificate-transparency.org,Google
+DOMAIN-SUFFIX,chrome.com,Google
+DOMAIN-SUFFIX,chromeexperiments.com,Google
+DOMAIN-SUFFIX,chromestatus.com,Google
+DOMAIN-SUFFIX,chromium.org,Google
+DOMAIN-SUFFIX,creativelab5.com,Google
+DOMAIN-SUFFIX,debug.com,Google
+DOMAIN-SUFFIX,deepmind.com,Google
+DOMAIN-SUFFIX,firebaseio.com,Google
+DOMAIN-SUFFIX,getmdl.io,Google
+DOMAIN-SUFFIX,ggpht.com,Google
+DOMAIN-SUFFIX,gmail.com,Google
+DOMAIN-SUFFIX,gmodules.com,Google
+DOMAIN-SUFFIX,godoc.org,Google
+DOMAIN-SUFFIX,golang.org,Google
+DOMAIN-SUFFIX,gstatic.com,Google
+DOMAIN-SUFFIX,gv.com,Google
+DOMAIN-SUFFIX,gwtproject.org,Google
+DOMAIN-SUFFIX,itasoftware.com,Google
+DOMAIN-SUFFIX,madewithcode.com,Google
+DOMAIN-SUFFIX,material.io,Google
+DOMAIN-SUFFIX,polymer-project.org,Google
+DOMAIN-SUFFIX,admin.recaptcha.net,Google
+DOMAIN-SUFFIX,recaptcha.net,Google
+DOMAIN-SUFFIX,shattered.io,Google
+DOMAIN-SUFFIX,synergyse.com,Google
+DOMAIN-SUFFIX,tensorflow.org,Google
+DOMAIN-SUFFIX,tfhub.dev,Google
+DOMAIN-SUFFIX,tiltbrush.com,Google
+DOMAIN-SUFFIX,waveprotocol.org,Google
+DOMAIN-SUFFIX,waymo.com,Google
+DOMAIN-SUFFIX,webmproject.org,Google
+DOMAIN-SUFFIX,webrtc.org,Google
+DOMAIN-SUFFIX,whatbrowser.org,Google
+DOMAIN-SUFFIX,widevine.com,Google
+DOMAIN-SUFFIX,x.company,Google
+DOMAIN-SUFFIX,youtu.be,Google
+DOMAIN-SUFFIX,yt.be,Google
+DOMAIN-SUFFIX,ytimg.com,Google
+DOMAIN-SUFFIX,appspot.com,Google
+DOMAIN-SUFFIX,blogger.com,Google
+DOMAIN-SUFFIX,getoutline.org,Google
+DOMAIN-SUFFIX,gvt0.com,Google
+DOMAIN-SUFFIX,gvt1.com,Google
+DOMAIN-SUFFIX,gvt3.com,Google
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
+DOMAIN-KEYWORD,google,Google
+DOMAIN-KEYWORD,blogspot,Google
+# Vedio 国外视频网站,建议找些带Netflix,关键是不卡
+# >> Netflix
+USER-AGENT,Argo*,Vedio
+DOMAIN-SUFFIX,fast.com,Vedio
+DOMAIN-SUFFIX,netflix.com,Vedio
+DOMAIN-SUFFIX,netflix.net,Vedio
+DOMAIN-SUFFIX,nflxext.com,Vedio
+DOMAIN-SUFFIX,nflximg.com,Vedio
+DOMAIN-SUFFIX,nflximg.net,Vedio
+DOMAIN-SUFFIX,nflxso.net,Vedio
+DOMAIN-SUFFIX,nflxvideo.net,Vedio
+DOMAIN-SUFFIX,netflixdnstest0.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest1.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest2.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest3.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest4.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest5.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest6.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest7.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest8.com,Vedio
+DOMAIN-SUFFIX,netflixdnstest9.com,Vedio
+IP-CIDR,23.246.0.0/18,Vedio
+IP-CIDR,37.77.184.0/21,Vedio
+IP-CIDR,45.57.0.0/17,Vedio
+IP-CIDR,64.120.128.0/17,Vedio
+IP-CIDR,66.197.128.0/17,Vedio
+IP-CIDR,108.175.32.0/20,Vedio
+IP-CIDR,192.173.64.0/18,Vedio
+IP-CIDR,198.38.96.0/19,Vedio
+IP-CIDR,198.45.48.0/20,Vedio
+# >> niconico
+USER-AGENT,Niconico*,Vedio
+DOMAIN-SUFFIX,dmc.nico,Vedio
+DOMAIN-SUFFIX,nicovideo.jp,Vedio
+DOMAIN-SUFFIX,nimg.jp,Vedio
+DOMAIN-SUFFIX,socdm.com,Vedio
+# >> Hulu
+DOMAIN-SUFFIX,hulu.com,Vedio
+DOMAIN-SUFFIX,huluim.com,Vedio
+DOMAIN-SUFFIX,hulustream.com,Vedio
+# >> Hulu日本
+DOMAIN-SUFFIX,happyon.jp,Vedio
+DOMAIN-SUFFIX,hulu.jp,Vedio
+# >> Pornhub
+DOMAIN-SUFFIX,phncdn.com,Vedio
+DOMAIN-SUFFIX,phprcdn.com,Vedio
+DOMAIN-SUFFIX,pornhub.com,Vedio
+DOMAIN-SUFFIX,pornhubpremium.com,Vedio
+# >> TikTok 现行不拔卡方法失效,反正我是没成功过,最新版建议拔卡(不包括旧版安装的办法)
+USER-AGENT,TikTok*,Vedio
+DOMAIN-SUFFIX,muscdn.com,Vedio
+DOMAIN-SUFFIX,musical.ly,Vedio
+DOMAIN-SUFFIX,tiktokv.com,Vedio
+DOMAIN-SUFFIX,tiktokcdn.com,Vedio
+DOMAIN-KEYWORD,-tiktokcdn-com,Vedio
+# >> YouTube
+USER-AGENT,com.google.ios.youtube*,Vedio
+USER-AGENT,YouTube*,Vedio
+DOMAIN-SUFFIX,googlevideo.com,Vedio
+DOMAIN-SUFFIX,youtube.com,Vedio
+DOMAIN,youtubei.googleapis.com,Vedio
+# > Speed Test 选择想要测速的节点,配合Speed Test使用
+DOMAIN-SUFFIX,speedtest.net,Speed Test
+DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
+DOMAIN,speedtest.macpaw.com,Speed Test
+# > 国内常见网站
+GEOIP,CN,国内常见网站
