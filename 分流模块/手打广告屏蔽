@@ -12,5 +12,7 @@ host,restapi.amap.com,REJECT
 # D_S
 # (4)
 DOMAIN-SUFFIX,4399sy.com,REJECT
+# (F)
+DOMAIN-SUFFIX,fengkongcloud.com,REJECT
 # (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
