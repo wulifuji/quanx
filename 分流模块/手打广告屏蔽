@@ -1,8 +1,10 @@
 # 这是作者上网时遇到的烦人的东西，一律给爷爬！
 
 
-# host
-# (P)
+# host    host,.com,REJECT
+# (A)
+host,aflink.com,REJECT
+# (P)    
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
 # (R)
