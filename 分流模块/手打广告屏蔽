@@ -5,11 +5,12 @@
 # (P)
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
+# (R)
+host,restapi.amap.com,REJECT
 
 
 # D_S
 # (4)
 DOMAIN-SUFFIX,4399sy.com,REJECT
-
 # (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
