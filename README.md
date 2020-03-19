@@ -21,4 +21,12 @@
 >>>2.去广告  
 >>>>1.引用[最完善的 iOS 翻墙规则](https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf "Shadowrocket-ADBlock-Rules")  
 >>>>2.再加上一些整合  
->>>>3.可能会有冗余
+>>>>3.可能会有冗余  
+
+>>二、复写模块  
+>>>1.使用我的库原有复写规则
+>>>2.当然也是嫖来的  
+
+>>三、图标  
+>>>1.[几个图标](https://github.com/crossutility/Quantumult-X/tree/master/icon-samples "带复写")  
+>>>2.[Qure图标集](https://github.com/Koolson/Qure "齐全")
