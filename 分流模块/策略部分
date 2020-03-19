@@ -14,6 +14,29 @@ DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 DOMAIN,itunes.apple.com,Apple
+# >> 定位相关
+USER-AGENT,com.apple.geod*,Apple
+USER-AGENT,com.apple.Maps,Apple
+USER-AGENT,FindMyFriends*,Apple
+USER-AGENT,FindMyiPhone*,Apple
+USER-AGENT,FMDClient*,Apple
+USER-AGENT,FMFD*,Apple
+USER-AGENT,fmflocatord*,Apple
+USER-AGENT,geod*,Apple
+USER-AGENT,locationd*,Apple
+USER-AGENT,Maps*,Apple
+# >> 支付相关
+USER-AGENT,*Passbook*,Apple
+USER-AGENT,passd*,Apple
+USER-AGENT,seld*,Apple
+USER-AGENT,trustd*,Apple
+USER-AGENT,Wallet/1.0*,Apple
+# >> Siri
+USER-AGENT,*AssistantServices*,Apple
+USER-AGENT,MobileAsset*,Apple
+USER-AGENT,Siri*,Apple
+USER-AGENT,*siri*,Apple
+# >> apple的ip
 IP-CIDR,17.0.0.0/8,Apple
 # > Bilibili 为B站开标签,直连
 DOMAIN,api.bilibili.com,Bilibili
