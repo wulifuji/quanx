@@ -1,0 +1,4 @@
+# 这是作者上网时遇到的烦人的东西，一律给爷爬！
+
+host,pingma.qq.com,REJECT
+DOMAIN-SUFFIX,sy4399.com,REJECT
