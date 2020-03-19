@@ -14,6 +14,8 @@ host,restapi.amap.com,REJECT
 DOMAIN-SUFFIX,4399sy.com,REJECT
 # (F)
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
+# (Q)
+DOMAIN-SUFFIX,qnvideo.ixiaochuan.cn,REJECT
 # (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
 # (U)
