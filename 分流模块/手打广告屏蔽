@@ -1,14 +1,21 @@
-# 这是作者上网时遇到的烦人的东西，一律给爷爬！
+# 烦人的东西，一律给爷爬
 
 
-# host    host,.com,REJECT
-# (A)
+# H    host,.com,REJECT
+# > (A)
+host, ac.o2.qq.com, reject
 host,aflink.com,REJECT
-# (P)    
+# > (P)    
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
-# (R)
+# > (D)
+host, diagnosis.izuiyou.com, reject
+# > (R)
 host,restapi.amap.com,REJECT
+# > (V)
+host, vchat.mokatech.cn, reject
+# > (W)
+host, wsvideo.izuiyou.com, reject
 
 
 # D_S    DOMAIN-SUFFIX,,REJECT
@@ -22,3 +29,9 @@ DOMAIN-SUFFIX,qnvideo.ixiaochuan.cn,REJECT
 DOMAIN-SUFFIX,sy4399.com,REJECT
 # (U)
 DOMAIN-SUFFIX,umengcloud.com,REJECT
+
+
+# H_K    host-keyword,,reject
+# > (X)
+host-keyword, xiaochuan, reject
+
