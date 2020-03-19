@@ -4,7 +4,6 @@
 # H    host,.com,REJECT
 # > (A)
 host, ac.o2.qq.com, reject
-host,aflink.com,REJECT
 # > (P)    
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
@@ -21,6 +20,8 @@ host, wsvideo.izuiyou.com, reject
 # D_S    DOMAIN-SUFFIX,,REJECT
 # (4)
 DOMAIN-SUFFIX,4399sy.com,REJECT
+# (A)
+DOMAIN-SUFFIX,aflink.com,REJECT
 # (F)
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
 # (Q)
