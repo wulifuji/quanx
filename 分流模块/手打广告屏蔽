@@ -19,4 +19,4 @@ DOMAIN-SUFFIX,qnvideo.ixiaochuan.cn,REJECT
 # (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
 # (U)
-DOMAIN-SUFFIX,umengcloud,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
