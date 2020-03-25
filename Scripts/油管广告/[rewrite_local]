@@ -1,1 +1,1 @@
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url script-response-body 油管广告.js
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url script-response-body YouTube.js
