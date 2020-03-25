@@ -1,11 +1,5 @@
-/*
-// by choler
-[Rerite_local]
-^https://aweme-eagle(.*)\.snssdk\.com\/aweme/.+/(feed|aweme/post|follow/feed)/ url script-response-body Tremolo_watermark.js
+// Tremolo_watermark.js
 
-[MITM]
-hostname = *.amemv.com, *.snssdk.com
-*/
 
 let arr = {
   "allow_download": true,
