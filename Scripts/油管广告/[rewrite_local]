@@ -1,1 +1,1 @@
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url script-response-body YouTube.js
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url script-response-body YouTube.js
