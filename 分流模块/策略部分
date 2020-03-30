@@ -102,67 +102,67 @@ DOMAIN-SUFFIX,gvt3.com,Google
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
 DOMAIN-KEYWORD,google,Google
 DOMAIN-KEYWORD,blogspot,Google
-# Vedio 国外视频网站,建议找些带Netflix,关键是不卡
+# Video 国外视频网站,建议找些带Netflix,关键是不卡
 # >> Netflix
-USER-AGENT,Argo*,Vedio
-DOMAIN-SUFFIX,fast.com,Vedio
-DOMAIN-SUFFIX,netflix.com,Vedio
-DOMAIN-SUFFIX,netflix.net,Vedio
-DOMAIN-SUFFIX,nflxext.com,Vedio
-DOMAIN-SUFFIX,nflximg.com,Vedio
-DOMAIN-SUFFIX,nflximg.net,Vedio
-DOMAIN-SUFFIX,nflxso.net,Vedio
-DOMAIN-SUFFIX,nflxvideo.net,Vedio
-DOMAIN-SUFFIX,netflixdnstest0.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest1.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest2.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest3.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest4.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest5.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest6.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest7.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest8.com,Vedio
-DOMAIN-SUFFIX,netflixdnstest9.com,Vedio
-IP-CIDR,23.246.0.0/18,Vedio
-IP-CIDR,37.77.184.0/21,Vedio
-IP-CIDR,45.57.0.0/17,Vedio
-IP-CIDR,64.120.128.0/17,Vedio
-IP-CIDR,66.197.128.0/17,Vedio
-IP-CIDR,108.175.32.0/20,Vedio
-IP-CIDR,192.173.64.0/18,Vedio
-IP-CIDR,198.38.96.0/19,Vedio
-IP-CIDR,198.45.48.0/20,Vedio
+USER-AGENT,Argo*,Video
+DOMAIN-SUFFIX,fast.com,Video
+DOMAIN-SUFFIX,netflix.com,Video
+DOMAIN-SUFFIX,netflix.net,Video
+DOMAIN-SUFFIX,nflxext.com,Video
+DOMAIN-SUFFIX,nflximg.com,Video
+DOMAIN-SUFFIX,nflximg.net,Video
+DOMAIN-SUFFIX,nflxso.net,Video
+DOMAIN-SUFFIX,nflxvideo.net,Video
+DOMAIN-SUFFIX,netflixdnstest0.com,Video
+DOMAIN-SUFFIX,netflixdnstest1.com,Video
+DOMAIN-SUFFIX,netflixdnstest2.com,Video
+DOMAIN-SUFFIX,netflixdnstest3.com,Video
+DOMAIN-SUFFIX,netflixdnstest4.com,Video
+DOMAIN-SUFFIX,netflixdnstest5.com,Video
+DOMAIN-SUFFIX,netflixdnstest6.com,Video
+DOMAIN-SUFFIX,netflixdnstest7.com,Video
+DOMAIN-SUFFIX,netflixdnstest8.com,Video
+DOMAIN-SUFFIX,netflixdnstest9.com,Video
+IP-CIDR,23.246.0.0/18,Video
+IP-CIDR,37.77.184.0/21,Video
+IP-CIDR,45.57.0.0/17,Video
+IP-CIDR,64.120.128.0/17,Video
+IP-CIDR,66.197.128.0/17,Video
+IP-CIDR,108.175.32.0/20,Video
+IP-CIDR,192.173.64.0/18,Video
+IP-CIDR,198.38.96.0/19,Video
+IP-CIDR,198.45.48.0/20,Video
 # >> niconico
-USER-AGENT,Niconico*,Vedio
-DOMAIN-SUFFIX,dmc.nico,Vedio
-DOMAIN-SUFFIX,nicovideo.jp,Vedio
-DOMAIN-SUFFIX,nimg.jp,Vedio
-DOMAIN-SUFFIX,socdm.com,Vedio
+USER-AGENT,Niconico*,Video
+DOMAIN-SUFFIX,dmc.nico,Video
+DOMAIN-SUFFIX,nicovideo.jp,Video
+DOMAIN-SUFFIX,nimg.jp,Video
+DOMAIN-SUFFIX,socdm.com,Video
 # >> Hulu
-DOMAIN-SUFFIX,hulu.com,Vedio
-DOMAIN-SUFFIX,huluim.com,Vedio
-DOMAIN-SUFFIX,hulustream.com,Vedio
+DOMAIN-SUFFIX,hulu.com,Video
+DOMAIN-SUFFIX,huluim.com,Video
+DOMAIN-SUFFIX,hulustream.com,Video
 # >> Hulu日本
-DOMAIN-SUFFIX,happyon.jp,Vedio
-DOMAIN-SUFFIX,hulu.jp,Vedio
+DOMAIN-SUFFIX,happyon.jp,Video
+DOMAIN-SUFFIX,hulu.jp,Video
 # >> Pornhub
-DOMAIN-SUFFIX,phncdn.com,Vedio
-DOMAIN-SUFFIX,phprcdn.com,Vedio
-DOMAIN-SUFFIX,pornhub.com,Vedio
-DOMAIN-SUFFIX,pornhubpremium.com,Vedio
+DOMAIN-SUFFIX,phncdn.com,Video
+DOMAIN-SUFFIX,phprcdn.com,Video
+DOMAIN-SUFFIX,pornhub.com,Video
+DOMAIN-SUFFIX,pornhubpremium.com,Video
 # >> TikTok 现行不拔卡方法失效,反正我是没成功过,最新版建议拔卡(不包括旧版安装的办法)
-USER-AGENT,TikTok*,Vedio
-DOMAIN-SUFFIX,muscdn.com,Vedio
-DOMAIN-SUFFIX,musical.ly,Vedio
-DOMAIN-SUFFIX,tiktokv.com,Vedio
-DOMAIN-SUFFIX,tiktokcdn.com,Vedio
-DOMAIN-KEYWORD,-tiktokcdn-com,Vedio
+USER-AGENT,TikTok*,Video
+DOMAIN-SUFFIX,muscdn.com,Video
+DOMAIN-SUFFIX,musical.ly,Video
+DOMAIN-SUFFIX,tiktokv.com,Video
+DOMAIN-SUFFIX,tiktokcdn.com,Video
+DOMAIN-KEYWORD,-tiktokcdn-com,Video
 # >> YouTube
-USER-AGENT,com.google.ios.youtube*,Vedio
-USER-AGENT,YouTube*,Vedio
-DOMAIN-SUFFIX,googlevideo.com,Vedio
-DOMAIN-SUFFIX,youtube.com,Vedio
-DOMAIN,youtubei.googleapis.com,Vedio
+USER-AGENT,com.google.ios.youtube*,Video
+USER-AGENT,YouTube*,Video
+DOMAIN-SUFFIX,googlevideo.com,Video
+DOMAIN-SUFFIX,youtube.com,Video
+DOMAIN,youtubei.googleapis.com,Video
 # > Speed Test 选择想要测速的节点,配合Speed Test使用
 DOMAIN-SUFFIX,speedtest.net,Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
