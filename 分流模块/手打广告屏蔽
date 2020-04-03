@@ -13,6 +13,7 @@ host, diagnosis.izuiyou.com, reject
 host,restapi.amap.com,REJECT
 # > (V)
 host, vchat.mokatech.cn, reject
+host, vip.dingtalk.com, reject
 # > (W)
 host, wsvideo.izuiyou.com, reject
 
@@ -36,3 +37,9 @@ DOMAIN-SUFFIX,umengcloud.com,REJECT
 # > (X)
 host-keyword, xiaochuan, reject
 
+
+# H_S    host-suffix,, reject
+# > (H)
+host-suffix, h5uc.com, reject
+# > (S)
+host-suffix, sy3.com, reject
