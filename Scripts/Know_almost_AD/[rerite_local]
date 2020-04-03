@@ -2,3 +2,4 @@
 ^https://api.zhihu.com/topstory/recommend url script-response-body Know_almost_AD_recommend.js
 ^https://api.zhihu.com/.*/questions url script-response-body Know_almost_AD_answer.js
 ^https://api.zhihu.com/market/header url script-response-body Know_almost_AD_market.js
+^https?:\/\/api\.zhihu\.com\/(moments\?(action|feed_type)|topstory\/recommend|.*\/questions|market\/header|people) url script-response-body Zhihu.js
