@@ -1,0 +1,6 @@
+# > 微信
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-200
+# > Youtube++
+^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
+# > 最右
+^https?:\/\/api\.izuiyou\.com\/ad\/ url reject-200
