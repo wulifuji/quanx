@@ -167,3 +167,7 @@ DOMAIN,youtubei.googleapis.com,Video
 DOMAIN-SUFFIX,speedtest.net,Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
 DOMAIN,speedtest.macpaw.com,Speed Test
+# > Spotify
+HOST-KEYWORD,spotify,Spotify
+DOMAIN-SUFFIX,scdn.co,Spotify
+HOST,audio-akp-bbr-spotify-com.akamaized.net,Spotify
