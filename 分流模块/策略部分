@@ -164,10 +164,29 @@ DOMAIN-SUFFIX,googlevideo.com,Video
 DOMAIN-SUFFIX,youtube.com,Video
 DOMAIN,youtubei.googleapis.com,Video
 # > Speed Test 选择想要测速的节点,配合Speed Test使用
-DOMAIN-SUFFIX,speedtest.net,Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
-DOMAIN,speedtest.macpaw.com,Speed Test
-# > Spotify
-HOST-KEYWORD,spotify,Spotify
+; DOMAIN-SUFFIX,speedtest.net,Speed Test
+; DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
+; DOMAIN,speedtest.macpaw.com,Speed Test
+USER-AGENT,SpeedTest*,Speed Test
+DOMAIN-KEYWORD,speedtest,Speed Test
+# > Spotify from:https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Media/Spotify.list
+USER-AGENT,Spotify*,Spotify
+DOMAIN-SUFFIX,pscdn.co,Spotify
 DOMAIN-SUFFIX,scdn.co,Spotify
-HOST,audio-akp-bbr-spotify-com.akamaized.net,Spotify
+DOMAIN-SUFFIX,spotify.com,Spotify
+DOMAIN-SUFFIX,spoti.fi,Spotify
+DOMAIN-KEYWORD,spotify.com,Spotify
+DOMAIN-KEYWORD,-spotify-com,Spotify
+# > Telegram
+DOMAIN-SUFFIX,t.me,Telegram
+DOMAIN-SUFFIX,tdesktop.com,Telegram
+DOMAIN-SUFFIX,telegra.ph,Telegram
+DOMAIN-SUFFIX,telegram.me,Telegram
+DOMAIN-SUFFIX,telegram.org,Telegram
+DOMAIN-SUFFIX,telesco.pe,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
