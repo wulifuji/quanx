@@ -100,6 +100,7 @@ DOMAIN-SUFFIX,gvt0.com,Google
 DOMAIN-SUFFIX,gvt1.com,Google
 DOMAIN-SUFFIX,gvt3.com,Google
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google
+DOMAIN-SUFFIX,telephony.goog,Google
 DOMAIN-KEYWORD,google,Google
 DOMAIN-KEYWORD,blogspot,Google
 # Video 国外视频网站,建议找些带Netflix,关键是不卡
@@ -173,9 +174,8 @@ DOMAIN-KEYWORD,speedtest,Speed Test
 USER-AGENT,Spotify*,Spotify
 DOMAIN-SUFFIX,pscdn.co,Spotify
 DOMAIN-SUFFIX,scdn.co,Spotify
-DOMAIN-SUFFIX,spotify.com,Spotify
 DOMAIN-SUFFIX,spoti.fi,Spotify
-DOMAIN-KEYWORD,spotify.com,Spotify
+DOMAIN-KEYWORD,spotify,Spotify
 DOMAIN-KEYWORD,-spotify-com,Spotify
 # > Telegram
 DOMAIN-SUFFIX,t.me,Telegram

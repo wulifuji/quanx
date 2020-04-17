@@ -4,6 +4,8 @@
 # H    host,.com,REJECT
 # > (A)
 host, ac.o2.qq.com, reject
+# > (B)
+host, bugly.qq.com,reject
 # > (P)    
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
