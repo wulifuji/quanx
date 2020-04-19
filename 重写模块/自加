@@ -1,5 +1,6 @@
 # > 微信
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-200
+^*.qpic.cn header-replace User-Agent WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0
 # > Youtube++
 ^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
 # > 最右
