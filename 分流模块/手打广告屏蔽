@@ -46,3 +46,8 @@ host-keyword, xiaochuan, reject
 host-suffix, h5uc.com, reject
 # > (S)
 host-suffix, sy3.com, reject
+
+
+# U_A    user-agent,,reject
+# > (Z)
+user-agent,osee2*,reject
