@@ -49,5 +49,7 @@ host-suffix, sy3.com, reject
 
 
 # U_A    user-agent,,reject
-# > (Z)
+# > (A)
+user-agent,AVOS*,reject
+# > (O)
 user-agent,osee2*,reject
