@@ -11,7 +11,7 @@ host,pingma.qq.com,REJECT
 # > (D)
 host, diagnosis.izuiyou.com, reject
 # > (R)
-host,restapi.amap.com,REJECT
+
 # > (V)
 host, vchat.mokatech.cn, reject
 host, vip.dingtalk.com, reject
