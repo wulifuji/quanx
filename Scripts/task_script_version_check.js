@@ -2,7 +2,7 @@
  * 2020年06月13日
  * 1、监控github仓库的commits和release。
  * 2、监控具体的文件或目录是否有更新。
- * @author: Peng-YM， toulanboy
+ * author: Peng-YM， toulanboy
  * 更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js
  * 配置方法：
  * 1. 填写github token, 在github > settings > developer settings > personal access token 里面生成一个新token。
