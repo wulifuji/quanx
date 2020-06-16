@@ -24,6 +24,7 @@ const token = "784a03feb07989d3339dfa41c7eb41777436cbfa";
 const repositories = [
   {
     name: "本监测脚本",
+    file_names: ["github.js"],
     url: "https://github.com/Peng-YM/QuanX/tree/master/Tasks",
   },
   {
