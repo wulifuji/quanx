@@ -16,7 +16,7 @@
  * 📌 如果希望监控Release，请切换至Release界面，直接复制URL填入；
  * 📌 若文件存在某个目录里面，请填写【一级目录】。如 JD-DailyBonus/JD-DailyBonus.js， 那么填写前面的JD-DailyBonus。
  * [task_local]  
- * 0 9 * * * https://github.com/wulifuji/quanx/new/master/Scripts/task_script_version_check.js
+ * 0 9 * * * https://raw.githubusercontent.com/wulifuji/quanx/master/Scripts/task_script_version_check.js
  */
 
 const token = "784a03feb07989d3339dfa41c7eb41777436cbfa";
