@@ -255,7 +255,7 @@ hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.c
 ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview url reject-200
 # G
 # > Google
-^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
+# ^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
 ^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
