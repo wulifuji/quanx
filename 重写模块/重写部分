@@ -446,22 +446,22 @@ hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.c
 ^https?:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} url reject-img
 ^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} url reject-img
 # Y
-# > Youtube++
-^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
-^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ url reject-img
-^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
-^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
-^https?:\/\/.+\.youtube\.com\/get_midroll url reject-img
-^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
-^https?:\/\/.+\.youtube\.com\/ptracking\? url reject-img
-^https?:\/\/m\.youtube\.com\/_get_ads url reject-img
-^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject-img
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
-^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat url reject-img
-^https?:\/\/s0\.2mdn\.net\/ads\/ url reject-img
-^https?:\/\/stats\.tubemogul\.com\/stats\/ url reject-img
+# > Youtube++  # for premium
+# ^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
+# ^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ url reject-img
+# ^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
+# ^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-img
+# ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
+# ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
+# ^https?:\/\/.+\.youtube\.com\/get_midroll url reject-img
+# ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
+# ^https?:\/\/.+\.youtube\.com\/ptracking\? url reject-img
+# ^https?:\/\/m\.youtube\.com\/_get_ads url reject-img
+# ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject-img
+# ^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
+# ^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat url reject-img
+# ^https?:\/\/s0\.2mdn\.net\/ads\/ url reject-img
+# ^https?:\/\/stats\.tubemogul\.com\/stats\/ url reject-img
 # > 印象笔记
 ^https?:\/\/app\.yinxiang\.com\/ads\/ url reject-200
 # Z
