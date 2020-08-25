@@ -1,19 +1,5 @@
 # 这是策略部分
 # 策略(加在这里)
-# > Apple 用代理,会更快？
-DOMAIN-SUFFIX,aaplimg.com,Apple
-DOMAIN-SUFFIX,apple.co,Apple
-DOMAIN-SUFFIX,apple.com,Apple
-DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-DOMAIN-SUFFIX,appstore.com,Apple
-DOMAIN-SUFFIX,cdn-apple.com,Apple
-DOMAIN-SUFFIX,crashlytics.com,Apple
-DOMAIN-SUFFIX,icloud.com,Apple
-DOMAIN-SUFFIX,icloud-content.com,Apple
-DOMAIN-SUFFIX,me.com,Apple
-DOMAIN-SUFFIX,mzstatic.com,Apple
-DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-DOMAIN,itunes.apple.com,Apple
 # >> 定位相关
 USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.Maps,Apple
@@ -50,10 +36,10 @@ DOMAIN-SUFFIX,crashlytics.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
 DOMAIN-SUFFIX,icloud.com.cn,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN,itunes.apple.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,Apple
 # > Bilibili 为B站开标签,直连
 DOMAIN,api.bilibili.com,Bilibili
 DOMAIN-SUFFIX,acgvideo.com,Bilibili

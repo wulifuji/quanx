@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,umengcloud.com,REJECT
 # H_K    host-keyword,,reject
 # > (X)
 host-keyword, xiaochuan, reject
+host-keyword,umeng,REJECT
 
 
 # H_S    host-suffix,, reject
