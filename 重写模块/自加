@@ -9,5 +9,3 @@
 ^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
 ^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
-# > 知乎
-^https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) url reject

@@ -465,16 +465,6 @@ hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.c
 # > 印象笔记
 ^https?:\/\/app\.yinxiang\.com\/ads\/ url reject-200
 # Z
-# > 知乎
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/ url reject-200
-^https?:\/\/api\.zhihu\.com\/(launch|real_time) url reject-200
-^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) url reject-200
-^https?:\/\/api\.zhihu\.com\/fringe\/ad url reject-200
-^https?:\/\/api\.zhihu\.com\/ad- url reject-200
-^https?:\/\/api\.zhihu\.com\/launch url reject-img
-^https?:\/\/api\.zhihu\.com\/real_time_launch url reject-img
-^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/ url reject-img
-^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm url reject-img
 # > 作业帮
 ^https?:\/\/www\.zybang\.com\/adx\/ url reject-200
 ^https?:\/\/img\.zuoyebang\.cc\/zyb-image[\s\S]*?\.jpg url reject-img
