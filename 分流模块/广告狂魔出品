@@ -30,7 +30,7 @@ DOMAIN-SUFFIX,stats.chinaz.com,Reject
 DOMAIN-SUFFIX,google-analytics.com,Reject
 #广告联盟（可能有多余项）
 DOMAIN-SUFFIX,doubleclick.net,Reject
-DOMAIN-SUFFIX,zhihu-analytics.zhihu.com,Reject
+# DOMAIN-SUFFIX,zhihu-analytics.zhihu.com,Reject
 DOMAIN-SUFFIX,log.cmbchina.com,Reject
 DOMAIN-SUFFIX,api.segment.io,Reject
 DOMAIN-SUFFIX,api.instabug.com,Reject
