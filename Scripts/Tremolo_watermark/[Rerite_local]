@@ -1,1 +1,0 @@
-^https://aweme-eagle(.*)\.snssdk\.com\/aweme/.+/(feed|aweme/post|follow/feed)/ url script-response-body Tremolo_watermark.js
