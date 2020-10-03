@@ -166,6 +166,13 @@ USER-AGENT,YouTube*,Video
 DOMAIN-SUFFIX,googlevideo.com,Video
 DOMAIN-SUFFIX,youtube.com,Video
 DOMAIN,youtubei.googleapis.com,Video
+# >> Twitch
+DOMAIN-SUFFIX,twitch.tv,Video
+DOMAIN-SUFFIX,twitchcdn.net,Video
+DOMAIN-SUFFIX,twitchcdn.svc,Video
+DOMAIN-SUFFIX,ttvnw.net,Video
+DOMAIN-SUFFIX,jtvnw.net,Video
+DOMAIN-SUFFIX,ext-twitch.tv,Video
 # > Speed Test 选择想要测速的节点,配合Speed Test使用
 ; DOMAIN-SUFFIX,speedtest.net,Speed Test
 ; DOMAIN-SUFFIX,netspeedtestmaster.com,Speed Test
