@@ -189,6 +189,32 @@ DOMAIN-KEYWORD,-spotify-com,Spotify
 # > Instagram from:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Instagram.list
 DOMAIN-SUFFIX,cdninstagram.com,Spotify
 DOMAIN-SUFFIX,instagram.com,Spotify
+# > Facebook from:https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Global.list
+DOMAIN-SUFFIX,cdninstagram.com,Spotify
+DOMAIN-SUFFIX,fb.com,Spotify
+DOMAIN-SUFFIX,fb.me,Spotify
+DOMAIN-SUFFIX,fbaddins.com,Spotify
+DOMAIN-SUFFIX,fbcdn.net,Spotify
+DOMAIN-SUFFIX,fbsbx.com,Spotify
+DOMAIN-SUFFIX,fbworkmail.com,Spotify
+DOMAIN-SUFFIX,instagram.com,Spotify
+DOMAIN-SUFFIX,m.me,Spotify
+DOMAIN-SUFFIX,messenger.com,Spotify
+DOMAIN-SUFFIX,oculus.com,Spotify
+DOMAIN-SUFFIX,oculuscdn.com,Spotify
+DOMAIN-SUFFIX,rocksdb.org,Spotify
+DOMAIN-SUFFIX,whatsapp.com,Spotify
+DOMAIN-SUFFIX,whatsapp.net,Spotify
+DOMAIN-KEYWORD,facebook,Spotify
+IP-CIDR,3.123.36.126/32,no-resolve,Spotify
+IP-CIDR,35.157.215.84/32,no-resolve,Spotify
+IP-CIDR,35.157.217.255/32,no-resolve,Spotify
+IP-CIDR,52.58.209.134/32,no-resolve,Spotify
+IP-CIDR,54.93.124.31/32,no-resolve,Spotify
+IP-CIDR,54.162.243.80/32,no-resolve,Spotify
+IP-CIDR,54.173.34.141/32,no-resolve,Spotify
+IP-CIDR,54.235.23.242/32,no-resolve,Spotify
+IP-CIDR,169.45.248.118/32,no-resolve,Spotify
 # > Telegram from:
 #                 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/TelegramUS.list
 #                 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/TelegramSG.list
