@@ -3,7 +3,7 @@
 
 
 # hostname改写(不知干嘛使的)
-hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.com,*.doubanio.com,*.iydsj.com,*.pstatp.com,*.ydstatic.com,*.youtube.com,*.cnbetacdn.com,101.201.62.22,113.105.222.132,113.96.109.*,118.178.214.118,121.14.89.216,121.9.212.178,14.21.76.30,183.232.237.194,183.232.246.225,183.60.159.227,59.37.96.220,*.kakamobi.cn,a.applovin.com,aarkissltrial.secure2.footprint.net,*acs.m.taobao.com,adm.10jqka.com.cn,adproxy.autohome.com.cn,afd.baidu.com,api.app.vhall.com,api.chelaile.net.cn,api.douban.com,api.fengshows.com,api.gotokeep.com,api.huomao.com,api.jr.mi.com,api.k.sohu.com,api.kkmh.com,api.laifeng.com,api.m.jd.com,api.m.mi.com,api.mddcloud.com.cn,*api.smzdm.com,api.weibo.cn,api.xiachufang.com,api-mifit.huami.com,api-mifit-cn.huami.com,*10086.cn,app.m.zj.chinamobile.com,app.wy.guahao.com,app2.autoimg.cn,appsdk.soku.com,atrace.chelaile.net.cn,c.m.163.com,capi.douyucdn.cn,cdn.kuaidi100.com,classbox2.kechenggezi.com,client.mail.163.com,connect.facebook.net,consumer.fcbox.com,creatives.ftimg.net,d.1qianbao.com,daoyu.sdo.com,dapis.mting.info,dl.app.gtja.com,dongfeng.alicdn.com,dsp-impr2.youdao.com,e.dangdang.com,erebor.douban.com,fm.fenqile.com,frodo.douban.com,fuss10.elemecdn.com,g1.163.com,gorgon.youdao.com,hm.xiaomi.com,hui.sohu.com,i1.hoopchina.com.cn,iface.iqiyi.com,iface2.iqiyi.com,img.jiemian.com,img.zuoyebang.cc,img1.126.net,impservice.dictapp.youdao.com,impservice.youdao.com,interface.music.163.com,ios.wps.cn,kano.guahao.cn,lives.l.qq.com,m.aty.sohu.com,m.client.10010.com,m.ibuscloud.com,m.yap.yahoo.com,mage.if.qidian.com,mapi.appvipshop.com,mbl.56.com,mimg.127.net,mlife.cmbchina.com,mmg.aty.sohu.com,mmgr.gtimg.com,mp.weixin.qq.com,ms.jr.jd.com,nex.163.com,p.kuaidi100.com,p1.music.126.net,pic.k.sohu.com,pic1cdn.cmbchina.com,pic2.zhimg.com,r.inews.qq.com,resource.cmbchina.com,ress.dxpmedia.com,rm.aarki.net,rtbapi.douyucdn.cn,service.4gtv.tv,smkmp.96225.com,sso.ifanr.com,static.api.m.panda.tv,static1.keepcdn.com,staticlive.douyucdn.cn,storage.wax.weibo.com,ups.youku.com,wapwenku.baidu.com,wenku.baidu.com,www.facebook.com,www.ft.com,www.oschina.net,*.amemv.com,*.k.sohu.com,*.tv.sohu.com,*.kingsoft-office-service.com,*.meituan.net,*.ofo.com,*.uve.weibo.com,*pi.feng.com,4gimg.map.qq.com,a.apicloud.com,a.qiumibao.com,a.wkanx.com,act.vip.iqiyi.com,api.21jingji.com,api.bjxkhc.com,api.caijingmobile.com,api.daydaycook.com.cn,api.douban.com,api.haohaozhu.cn,api.intsig.net,api.izuiyou.com,api.jxedt.com,api.mgzf.com,api.qbb6.com,api.psy-1.com,api.resso.app,api.rr.tv,api.vistopia.com.cn,api.waitwaitpay.com,api.wallstreetcn.com,api.xiachufang.com,api.yangkeduo.com,api.zhuishushenqi.com,*.tiktokv.com,*.tiktokcdn.com,api*.futunn.com,api-mifit*.huami.com,app.58.com,app.api.ke.com,appconf.mail.163.com,app.mixcapp.com,app.variflight.com,app.yinxiang.com,b.zhuishushenqi.com,business-cdn.shouji.sogou.com,cap.caocaokeji.cn,capi.mwee.cn,cdn.moji.com,channel.beitaichufang.com,cloud.189.cn,cms.daydaycook.com.cn,dsa-mfp.fengshows.cn,dxy.com,easyreadfs.nosdn.127.net,enjoy.abchina.com,gateway.shouqiev.com,g.cdn.pengpengla.com,gw.alicdn.com,gw.csdn.net,gw-passenger.01zhuanche.com,heic.alicdn.com,huichuan.sm.cn,i.weread.qq.com,i.ys7.com,iapi.bishijie.com,iface.iqiyi.com,ih2.ireader.com,imeclient.openspeech.cn,img*.10101111cdn.com,img*.360buyimg.com,ios.lantouzi.com,m.tuniu.com,manga.bilibili.com,mapi.mafengwo.cn,media.qyer.com,mlife.jf365.boc.cn,mob.mddcloud.com.cn,mobi.360doc.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,msspjh.emarbox.com,news.ssp.qq.com,newsso.map.qq.com,nnapp.cloudbae.cn,open.qyer.com,p.du.163.com,pic*.chelaile.net,portal-xunyou.qingcdn.com,pss.txffp.com,render.alipay.com,restapi.iyunmai.com,*release.wuta-cam.com,richmanapi.jxedt.com,s*.zdmimg.com,slapi.oray.net,snailsleep.net,sp.kaola.com,ss0.bdstatic.com,ssl.kohsocialapp.qq.com,static.vuevideo.net,status.boohee.com,support.you.163.com,thor.weidian.com,tiku.zhan.com,weibointl.api.weibo.cn,www.bodivis.com.cn,www.dandanzan.com,www.flyertea.com,yxyapi*.drcuiyutao.com,www.zybang.com,*.googlevideo.com,vsco.co,pan.baidu.com,trade-acs.m.taobao.com,api.gamer.com.tw,buy.itunes.apple.com,ap*.bilibili.com
+hostname = *.amemv.com,*.cnbetacdn.com,*.doubanio.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-office-service.com,*.meituan.net,*.musical.ly,*.ofo.com,*.pstatp.com,*.snssdk.com,*.tiktokcdn.com,*.tiktokv.com,*.tv.sohu.com,*.uve.weibo.com,*.ydstatic.com,*10086.cn,*acs.m.taobao.com,*api.smzdm.com,*pi.feng.com,*release.wuta-cam.com,101.201.62.22,113.105.222.132,113.96.109.*,118.178.214.118,121.14.89.216,121.9.212.178,14.21.76.30,183.232.237.194,183.232.246.225,183.60.159.227,4gimg.map.qq.com,59.37.96.220,a.apicloud.com,a.applovin.com,a.qiumibao.com,a.wkanx.com,aarkissltrial.secure2.footprint.net,act.vip.iqiyi.com,adm.10jqka.com.cn,adproxy.autohome.com.cn,afd.baidu.com,ap*.bilibili.com,api-mifit-cn.huami.com,api-mifit.huami.com,api-mifit*.huami.com,api.21jingji.com,api.app.vhall.com,api.bjxkhc.com,api.caijingmobile.com,api.chelaile.net.cn,api.daydaycook.com.cn,api.douban.com,api.douban.com,api.fengshows.com,api.gamer.com.tw,api.gotokeep.com,api.haohaozhu.cn,api.huomao.com,api.intsig.net,api.izuiyou.com,api.jr.mi.com,api.jxedt.com,api.k.sohu.com,api.kkmh.com,api.laifeng.com,api.m.jd.com,api.m.mi.com,api.mddcloud.com.cn,api.mgzf.com,api.psy-1.com,api.qbb6.com,api.resso.app,api.rr.tv,api.vistopia.com.cn,api.waitwaitpay.com,api.wallstreetcn.com,api.weibo.cn,api.xiachufang.com,api.xiachufang.com,api.yangkeduo.com,api.zhuishushenqi.com,api*.futunn.com,app.58.com,app.api.ke.com,app.m.zj.chinamobile.com,app.mixcapp.com,app.variflight.com,app.wy.guahao.com,app.yinxiang.com,app2.autoimg.cn,appconf.mail.163.com,appsdk.soku.com,atrace.chelaile.net.cn,b.zhuishushenqi.com,business-cdn.shouji.sogou.com,buy.itunes.apple.com,c.m.163.com,cap.caocaokeji.cn,capi.douyucdn.cn,capi.mwee.cn,cdn.kuaidi100.com,cdn.moji.com,channel.beitaichufang.com,classbox2.kechenggezi.com,client.mail.163.com,cloud.189.cn,cms.daydaycook.com.cn,connect.facebook.net,consumer.fcbox.com,creatives.ftimg.net,d.1qianbao.com,daoyu.sdo.com,dapis.mting.info,dl.app.gtja.com,dongfeng.alicdn.com,dsa-mfp.fengshows.cn,dsp-impr2.youdao.com,dxy.com,e.dangdang.com,easyreadfs.nosdn.127.net,enjoy.abchina.com,erebor.douban.com,fm.fenqile.com,frodo.douban.com,fuss10.elemecdn.com,g.cdn.pengpengla.com,g1.163.com,gateway.shouqiev.com,gorgon.youdao.com,gw-passenger.01zhuanche.com,gw.alicdn.com,gw.csdn.net,heic.alicdn.com,hm.xiaomi.com,hui.sohu.com,huichuan.sm.cn,i.weread.qq.com,i.ys7.com,i1.hoopchina.com.cn,iapi.bishijie.com,iface.iqiyi.com,iface.iqiyi.com,iface2.iqiyi.com,ih2.ireader.com,imeclient.openspeech.cn,img.jiemian.com,img.zuoyebang.cc,img*.10101111cdn.com,img*.360buyimg.com,img1.126.net,impservice.dictapp.youdao.com,impservice.youdao.com,interface.music.163.com,ios.lantouzi.com,ios.wps.cn,kano.guahao.cn,lives.l.qq.com,m.aty.sohu.com,m.client.10010.com,m.ibuscloud.com,m.tuniu.com,m.yap.yahoo.com,mage.if.qidian.com,manga.bilibili.com,mapi.appvipshop.com,mapi.mafengwo.cn,mbl.56.com,media.qyer.com,mimg.127.net,mlife.cmbchina.com,mlife.jf365.boc.cn,mmg.aty.sohu.com,mmgr.gtimg.com,mob.mddcloud.com.cn,mobi.360doc.com,mp.weixin.qq.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,msspjh.emarbox.com,news.ssp.qq.com,newsso.map.qq.com,nex.163.com,nnapp.cloudbae.cn,open.qyer.com,p.du.163.com,p.kuaidi100.com,p1.music.126.net,pan.baidu.com,pic.k.sohu.com,pic*.chelaile.net,pic1cdn.cmbchina.com,pic2.zhimg.com,portal-xunyou.qingcdn.com,pss.txffp.com,r.inews.qq.com,render.alipay.com,resource.cmbchina.com,ress.dxpmedia.com,restapi.iyunmai.com,richmanapi.jxedt.com,rm.aarki.net,rtbapi.douyucdn.cn,s*.zdmimg.com,service.4gtv.tv,slapi.oray.net,smkmp.96225.com,snailsleep.net,sp.kaola.com,ss0.bdstatic.com,ssl.kohsocialapp.qq.com,sso.ifanr.com,static.api.m.panda.tv,static.vuevideo.net,static1.keepcdn.com,staticlive.douyucdn.cn,status.boohee.com,storage.wax.weibo.com,support.you.163.com,thor.weidian.com,tiku.zhan.com,trade-acs.m.taobao.com,ups.youku.com,vsco.co,wapwenku.baidu.com,weibointl.api.weibo.cn,wenku.baidu.com,www.bodivis.com.cn,www.dandanzan.com,www.facebook.com,www.flyertea.com,www.ft.com,www.oschina.net,www.zybang.com,yxyapi*.drcuiyutao.com
 
 
 # (谷歌由中国定为世界)Redirect Google Search Service
@@ -71,22 +71,27 @@ hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.c
 ^https?:\/\/(www.)?zbrushcn.com/ url 302 https://pixologic.com/
 
 
-# > TikTok
-# 非亚洲区域 App Store 下载的 TikTok 请将 "8.4.0" 修改为 "14.0.0"
-# 使用国内版抖音需使用 ; 注释 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 8.4.0 规则
-(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
-(?<=(carrier|account|sys|sim)_region=)CN url 307 KR
-(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.4.0
+# > TikTok 戒了
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Unlock/TikTokJP.conf
+# https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Unlock/TikTokJP.conf
+# ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? url reject
+# (?<=_region=)CN(?=&) url 307 JP
+# (?<=&app_version=)1[6-9]..(?=.?.?&) url 307 17..
+# (?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 17..
 
 
 # 重头戏之广告不见
 # 意义不明
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku url reject
 ^https?://.+ccode=0902 url reject-img
-^https?:\/\/ulogs\.umeng\.com url reject-img
-^https?:\/\/ulogs\.umengcloud\.com url reject-img
-^https?:\/\/alogs\.umeng\.co url reject-img
-^https?:\/\/alogs\.umeng\.com url reject-img
+
+# umeng 过多的数据收集，reject
+# hostname = *.umeng*.*
+# ^https?:\/\/ulogs\.umeng\.com url reject-img
+# ^https?:\/\/ulogs\.umengcloud\.com url reject-img
+# ^https?:\/\/alogs\.umeng\.co url reject-img
+# ^https?:\/\/alogs\.umeng\.com url reject-img
+
 ; Other
 ^https?:\/\/.+allOne\.php\?ad_name=main_splash_ios url reject-img
 ^https?:\/\/.+nga\.cn.+\bhome.+\b=ad url reject-img
@@ -442,6 +447,7 @@ hostname = qidian.qpic.cn,*.umeng*.*,*.byteoversea.com, *.musical.ly, *.snssdk.c
 ^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} url reject-img
 # Y
 # > Youtube++  # for premium
+# hostname = *.youtube.com, *.googlevideo.com,
 # ^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
 # ^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ url reject-img
 # ^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
