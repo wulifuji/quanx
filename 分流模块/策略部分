@@ -40,14 +40,32 @@ DOMAIN,itunes.apple.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-# > Bilibili 为B站开标签,直连
-DOMAIN,api.bilibili.com,Bilibili
+# > Bilibili 为B站开标签，直连，TW
+DOMAIN-SUFFIX,acg.tv,Bilibili
 DOMAIN-SUFFIX,acgvideo.com,Bilibili
+DOMAIN-SUFFIX,b23.tv,Bilibili
 DOMAIN-SUFFIX,biliapi.com,Bilibili
 DOMAIN-SUFFIX,biliapi.net,Bilibili
 DOMAIN-SUFFIX,bilibili.com,Bilibili
 DOMAIN-SUFFIX,bilibili.tv,Bilibili
+DOMAIN-SUFFIX,biligame.com,Bilibili
+DOMAIN-SUFFIX,biligame.net,Bilibili
+DOMAIN-SUFFIX,bilivideo.com,Bilibili
+DOMAIN-KEYWORD,bilibili,Bilibili
 DOMAIN-SUFFIX,hdslb.com,Bilibili
+DOMAIN-SUFFIX,im9.com,Bilibili
+DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
+USER-AGENT,*bili*,Bilibili
+IP-CIDR,45.43.32.234/32,Bilibili
+IP-CIDR,119.29.29.29/32,Bilibili
+IP-CIDR,128.1.62.200/32,Bilibili
+IP-CIDR,128.1.62.201/32,Bilibili
+IP-CIDR,150.116.92.250/32,Bilibili
+IP-CIDR,164.52.76.18/32,Bilibili
+IP-CIDR,203.107.1.33/32,Bilibili
+IP-CIDR,203.107.1.34/32,Bilibili
+IP-CIDR,203.107.1.65/32,Bilibili
+IP-CIDR,203.107.1.66/32,Bilibili
 # > Google 谷歌时可以不要求网速,但要低延迟
 DOMAIN-SUFFIX,ampproject.org,Google
 DOMAIN-SUFFIX,abc.xyz,Google
