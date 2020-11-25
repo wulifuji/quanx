@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,azure.com,Micrsoft
 DOMAIN-SUFFIX,azure.net,Micrsoft
 DOMAIN-SUFFIX,azureedge.net,Micrsoft
 DOMAIN-SUFFIX,azurerms.com,Micrsoft
+DOMAIN-SUFFIX,bing.com,Micrsoft
+DOMAIN-SUFFIX,bing.com.cn,Micrsoft
 DOMAIN-SUFFIX,cloudapp.net,Micrsoft
 DOMAIN-SUFFIX,cloudappsecurity.com,Micrsoft
 DOMAIN-SUFFIX,edgesuite.net,Micrsoft
