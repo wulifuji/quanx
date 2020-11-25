@@ -4,14 +4,19 @@
 # H    host,.com,REJECT
 # > (A)
 host, ac.o2.qq.com, reject
+host, api.map.baidu.com, reject
 # > (B)
+# > (D)
+host, diagnosis.izuiyou.com, reject
+# > (H)
+host, huatuocode.weiyun.com, reject
+host, huatuospeed.weiyun.com, reject
 # > (P)    
 host,pangolin.snssdk.com,REJECT
 host,pingma.qq.com,REJECT
-# > (D)
-host, diagnosis.izuiyou.com, reject
 # > (R)
-
+# > (S)
+host, safebrowsing.urlsec.qq.com, reject
 # > (V)
 host, vchat.mokatech.cn, reject
 host, vip.dingtalk.com, reject
@@ -20,19 +25,21 @@ host, wsvideo.izuiyou.com, reject
 
 
 # D_S    DOMAIN-SUFFIX,,REJECT
-# (4)
+# > (4)
 DOMAIN-SUFFIX,4399sy.com,REJECT
-# (A)
-DOMAIN-SUFFIX,aflink.com,REJECT
-# (B)
-DOMAIN-SUFFIX, bugly.qq.com,reject
-# (F)
+# > (A)
+DOMAIN-SUFFIX, aflink.com, REJECT
+# > (B)
+DOMAIN-SUFFIX, bugly.qq.com, reject
+# > (E)
+host-suffix, extfun.com, reject
+# > (F)
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
-# (Q)
+# > (Q)
 DOMAIN-SUFFIX,qnvideo.ixiaochuan.cn,REJECT
-# (S)
+# > (S)
 DOMAIN-SUFFIX,sy4399.com,REJECT
-# (U)
+# > (U)
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 
 
@@ -45,6 +52,9 @@ host-keyword,umeng,REJECT
 # H_S    host-suffix,, reject
 # > (H)
 host-suffix, h5uc.com, reject
+host-suffix, huatuo.qq.com, reject
+# (M)
+host-suffix, mob.com, reject
 # > (S)
 host-suffix, sy3.com, reject
 
