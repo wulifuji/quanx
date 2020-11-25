@@ -1,0 +1,37 @@
+# > Instagram
+# > Facebook must include, better shunt us
+
+
+# , img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Instagram.png
+
+
+# From:
+#      https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
+#      https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list
+
+
+DOMAIN-SUFFIX,cdninstagram.com,Instagram
+DOMAIN-SUFFIX,fb.com,Instagram
+DOMAIN-SUFFIX,fb.me,Instagram
+DOMAIN-SUFFIX,fbaddins.com,Instagram
+DOMAIN-SUFFIX,fbcdn.net,Instagram
+DOMAIN-SUFFIX,fbsbx.com,Instagram
+DOMAIN-SUFFIX,fbworkmail.com,Instagram
+DOMAIN-SUFFIX,instagram.com,Instagram
+DOMAIN-SUFFIX,m.me,Instagram
+DOMAIN-SUFFIX,messenger.com,Instagram
+DOMAIN-SUFFIX,oculus.com,Instagram
+DOMAIN-SUFFIX,oculuscdn.com,Instagram
+DOMAIN-SUFFIX,rocksdb.org,Instagram
+DOMAIN-SUFFIX,whatsapp.com,Instagram
+DOMAIN-SUFFIX,whatsapp.net,Instagram
+DOMAIN-KEYWORD,facebook,Instagram
+IP-CIDR,169.45.248.118/32,Instagram,no-resolve
+IP-CIDR,3.123.36.126/32,Instagram,no-resolve
+IP-CIDR,35.157.215.84/32,Instagram,no-resolve
+IP-CIDR,35.157.217.255/32,Instagram,no-resolve
+IP-CIDR,52.58.209.134/32,Instagram,no-resolve
+IP-CIDR,54.162.243.80/32,Instagram,no-resolve
+IP-CIDR,54.173.34.141/32,Instagram,no-resolve
+IP-CIDR,54.235.23.242/32,Instagram,no-resolve
+IP-CIDR,54.93.124.31/32,Instagram,no-resolve

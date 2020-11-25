@@ -1,7 +1,10 @@
+# out-of-date
+
+
 # 这是广告部分，来源多重不会再改
 # 2020/3/19
 # 广告部分,来源为网络('https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Advertising.list')(有删减)
-# 经实测,只能屏蔽开屏广告;应用内广告需要'解析',没有抓包工具的我瑟瑟发抖;好吧,我不会
+# 经实测,只能屏蔽开屏广告; 
 // 域名屏蔽部分
 DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-SUFFIX,adcolony.com,REJECT
