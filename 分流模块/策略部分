@@ -186,7 +186,7 @@ DOMAIN-SUFFIX,pornhub.com,Video
 DOMAIN-SUFFIX,pornhubpremium.com,Video
 # >> TikTok
 USER-AGENT,TikTok*,Video
-DOMAIN-SUFFIX,byteoversea.com,TikTok
+DOMAIN-SUFFIX,byteoversea.com,Video
 DOMAIN-SUFFIX,muscdn.com,Video
 DOMAIN-SUFFIX,musical.ly,Video
 DOMAIN-SUFFIX,tiktokv.com,Video
