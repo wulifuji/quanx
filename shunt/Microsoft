@@ -1,8 +1,8 @@
 # > Micrsoft
 
 
-USER-AGENT,OneDrive*,OneDrive
-USER-AGENT,OneDriveiOSApp*,OneDrive
+USER-AGENT,OneDrive*,Micrsoft
+USER-AGENT,OneDriveiOSApp*,Micrsoft
 DOMAIN-KEYWORD,1drv,Micrsoft
 DOMAIN-KEYWORD,microsoft,Micrsoft
 DOMAIN-SUFFIX,aadrm.com,Micrsoft
