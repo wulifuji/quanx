@@ -16,7 +16,7 @@
 >>>1.策略
 >>>>1.Apple(代理会更快？)  
 >>>>2.国内大部分网站(直连会快一点，也就是白名单模式)  
->>>>3.Vedio(国外流媒体)
+>>>>3.Video(国外流媒体)
 
 >>>2.去广告  
 >>>>1.引用[最完善的 iOS 翻墙规则](https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf "Shadowrocket-ADBlock-Rules")  
