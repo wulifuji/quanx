@@ -1,10 +1,19 @@
+hostname = mp.weixin.qq
+
+
 # > 微信
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-200
 ^*.qpic.cn url request-header (\r\n)User-Agent:.+ request-header $1User-Agent: WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0
-# > Youtube++
-^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject-200
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+
+
+# 彩云天气 Vip
+^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
+
+
 # > 最右
 ^https?:\/\/api\.izuiyou\.com\/ad\/ url reject-200
+
+
 # > 不明广告
 ^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
