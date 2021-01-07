@@ -1,0 +1,13 @@
+# For:汽车之家
+
+
+# From:
+#      https://github.com/ziye12/QCZJSPEED/blob/main/Task/qczjspeed.js
+#      https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js
+
+
+hostname=mobile.app.autohome.com.cn,openapi.autohome.com.cn
+
+
+https:\/\/(mobile\.app\.autohome\.com\.cn\/*||openapi\.autohome\.com\.cn\/*) url script-request-body https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js
+http:\/\/mobile\.app\.autohome\.com\.cn\/* url script-request-body https://raw.githubusercontent.com/ziye12/QCZJSPEED/master/Task/qczjspeed.js
