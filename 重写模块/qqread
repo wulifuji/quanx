@@ -2,12 +2,12 @@
 
 
 # From:
-#      https://github.com/ziye12/JavaScript/blob/master/qqread.js
-#      https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
+#      https://github.com/ChuheGit/1/blob/main/Script/qqreads.js
+#      https://raw.githubusercontent.com/ChuheGit/1/main/Script/qqreads.js
 
 
 hostname=mqqapi.reader.qq.com
 
 
-https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track url script-request-body https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
-https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
+https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track url script-request-body https://raw.githubusercontent.com/ChuheGit/1/main/Script/qqreads.js
+https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? url script-request-header https://raw.githubusercontent.com/ChuheGit/1/main/Script/qqreads.js
