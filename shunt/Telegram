@@ -25,7 +25,7 @@ IP-CIDR,149.154.165.120/32,Telegram,no-resolve
 IP-CIDR,149.154.166.120/32,Telegram,no-resolve
 IP-CIDR,149.154.167.117/32,Telegram,no-resolve
 IP-CIDR,149.154.167.118/32,Telegram,no-resolve
-IP-CIDR,149.154.167.192/27,Telegram	,no-resolve
+IP-CIDR,149.154.167.192/27,Telegram,no-resolve
 IP-CIDR,149.154.167.40/32,Telegram,no-resolve
 IP-CIDR,149.154.167.42/32,Telegram,no-resolve
 IP-CIDR,149.154.167.50/32,Telegram,no-resolve
