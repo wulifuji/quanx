@@ -1,0 +1,11 @@
+# For:喜马拉雅
+
+
+# From:
+#      https://github.com/chavyleung/scripts/blob/master/ximalaya/README.md
+
+
+hostname=mobwsa.ximalaya.com
+
+
+^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
