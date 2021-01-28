@@ -1,4 +1,4 @@
-hostname = mp.weixin.qq, biz.caiyunapp.com
+hostname = mp.weixin.qq, biz.caiyunapp.com, google.com.cn, google.com.hk, google.cn
 
 
 # > 微信
@@ -18,3 +18,7 @@ hostname = mp.weixin.qq, biz.caiyunapp.com
 ^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
 ^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
+
+
+# > Google
+^https?:\/\/(www.)?(g|google)\/(.com)?.(cn|hk) url 302 https://www.google.com
