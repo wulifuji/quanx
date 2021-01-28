@@ -1,0 +1,12 @@
+# For:不背单词
+
+
+# From:
+#      https://github.com/chavyleung/scripts/tree/master/bubei
+#      https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
+
+
+hostname=sapi.beingfine.cn
+
+
+^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
