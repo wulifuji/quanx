@@ -21,4 +21,4 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, google.com.cn, google.com.hk, google
 
 
 # > Google
-^https?:\/\/(www.)?(g|google)\/(.com)?.(cn|hk) url 302 https://www.google.com
+^https?:\/\/(www.)?(g|google)(.com)?.(cn|hk) url 302 https://www.google.com
