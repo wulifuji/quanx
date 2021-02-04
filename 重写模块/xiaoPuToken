@@ -1,0 +1,12 @@
+# For:笑谱
+
+
+# From:
+#      https://github.com/ziye12/JavaScript/blob/main/Task/iboxpay.js
+#      https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js
+
+
+hostname=veishop.iboxpay.com
+
+
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/* url script-response-body https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js
