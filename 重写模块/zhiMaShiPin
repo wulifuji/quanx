@@ -1,0 +1,12 @@
+# For:芝嫲视频
+
+
+# From:
+#      https://github.com/age174/-/blob/main/zmsp.js
+#      https://raw.githubusercontent.com/age174/-/main/zmsp.js
+
+
+hostname = api.sxsjyzm.com
+
+
+^https://api.sxsjyzm.com/api2/loot/index url script-request-body https://raw.githubusercontent.com/age174/-/main/zmsp.js
