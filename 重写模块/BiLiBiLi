@@ -1,0 +1,17 @@
+# For:哔哩哔哩
+
+
+# From:
+#      https://github.com/lowking/Scripts/blob/master/bilibili/bangumiMonitor.js
+#      https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
+#
+#
+#      https://github.com/chavyleung/scripts/tree/master/bilibili
+#      https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
+
+
+hostname=*.bilibili.com
+
+
+https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi url script-request-header https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
