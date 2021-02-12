@@ -35,6 +35,8 @@ DOMAIN-SUFFIX, bugly.qq.com, reject
 host-suffix, extfun.com, reject
 # > (F)
 DOMAIN-SUFFIX,fengkongcloud.com,REJECT
+# > (H)
+DOMAIN-SUFFIX,hae123.cn,REJECT
 # > (Q)
 DOMAIN-SUFFIX,qnvideo.ixiaochuan.cn,REJECT
 # > (S)
