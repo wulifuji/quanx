@@ -2,6 +2,7 @@
 quote from:
            https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_bili_cn.js
 change 💋.Cross-GFW.org to 🌝.bilibili.io
+geo_location_checker= http://api.live.bilibili.com/ip_service/v1/ip_service/get_ip_addr?, https://raw.githubusercontent.com/wulifuji/quanx/master/IP_bili_cn.js
 */
 
 
@@ -10,7 +11,7 @@ if ($response.statusCode != 200) {
   }
   
   const emojis= ['🆘','🈲','⚠️','🔞','📵','🚦','🏖','🖥','📺','🐧','🐬','🦉','🍄','⛳️','🚴','🤑','👽','🤖','🎃', '👺', '👁', '🐶', '🐼','🐌', '👥']
-  var city0 = "高谭市";
+  var city0 = "霍格沃茨";
   var isp0 = "bilibili.io";
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
