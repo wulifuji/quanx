@@ -6,7 +6,7 @@
 #      https://raw.githubusercontent.com/age174/-/main/fqkk.js
 
 
-hostname=m.*.top
+hostname=m.*
 
 
-^http://m.*.top/reada/getTask url script-request-header https://raw.githubusercontent.com/age174/-/main/fqkk.js
+^http://m.*./reada/getTask url script-request-header https://raw.githubusercontent.com/age174/-/main/fqkk.js
