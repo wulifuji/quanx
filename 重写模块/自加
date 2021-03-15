@@ -18,4 +18,4 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.
 
 # > Google
 ^https?:\/\/(www\.)?google(\.com)?\.cn url 302 https://www.google.com
-^https?:\/\/(www\.)?google\.com\.hk url 302 https://www.google.com/ncr
+^https?:\/\/(www\.)?google\.com\.hk.* url 302 https://www.google.com/ncr
