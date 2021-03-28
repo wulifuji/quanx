@@ -1,2 +1,2 @@
-记得把CN GEOIP DIRECT，改成国内常见网站
-记得把- FINAL PROXY，改成默认节点 
+geoip, cn, CN
+Fianl, Final
