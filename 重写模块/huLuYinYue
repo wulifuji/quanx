@@ -1,0 +1,12 @@
+# For:葫芦音乐
+
+
+# From:
+#      https://github.com/age174/-/blob/main/hlyy.js
+#      https://raw.githubusercontent.com/age174/-/main/hlyy.js
+
+
+hostname=play.gxhuancai.com
+
+
+https://play.gxhuancai.com/hlplay/task/doTasks url script-request-header https://raw.githubusercontent.com/age174/-/main/hlyy.js
