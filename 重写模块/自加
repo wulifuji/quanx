@@ -1,4 +1,4 @@
-hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.google.cn
+hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.google.cn, link.zhihu.com
 
 
 # > 微信
@@ -6,7 +6,7 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 
-# 彩云天气 Vip
+# > 彩云天气 Vip
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
 
 
@@ -19,3 +19,7 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.
 # > Google
 ^https?:\/\/(www\.)?google(\.com)?\.cn url 302 https://www.google.com
 ^https?:\/\/(www\.)?google\.com\.hk.* url 302 https://www.google.com/ncr
+
+
+# > zhihu direct 2 link
+^https?://link\.zhihu\.com/\?target=(https?)%3A//(.*) url 307 $1://$2
