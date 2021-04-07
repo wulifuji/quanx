@@ -1,0 +1,12 @@
+# For:V生活
+
+
+# From:
+#      https://github.com/age174/-/blob/main/vsh.js
+#      https://raw.githubusercontent.com/age174/-/main/vsh.js
+
+
+hostname=iosvsh.zwzanwm.cn
+
+
+http://iosvsh.zwzanwm.cn/ url script-request-body https://raw.githubusercontent.com/age174/-/main/vsh.js
