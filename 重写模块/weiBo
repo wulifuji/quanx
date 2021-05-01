@@ -1,0 +1,13 @@
+# For:微博
+
+
+# From:
+#      https://github.com/GoodHolidays/Scripts/blob/master/TaskConf/sina/qx_rewite.txt
+#      https://raw.githubusercontent.com/GoodHolidays/Scripts/master/TaskConf/sina/qx_rewite.txt
+
+
+hostname=api.weibo.cn, m.weibo.cn
+
+
+https:\/\/api\.weibo\.cn\/\d\/users\/show url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
+https:\/\/m\.weibo\.cn\/c\/checkin\/ug\/v2\/signin\/module\?module url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
