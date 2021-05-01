@@ -10,8 +10,6 @@ DOMAIN-SUFFIX,bigfun.cn,Bilibili
 DOMAIN-SUFFIX,bigfunapp.cn,Bilibili
 DOMAIN-SUFFIX,biliapi.com,Bilibili
 DOMAIN-SUFFIX,biliapi.net,Bilibili
-DOMAIN-SUFFIX,bilibili.com,Bilibili
-DOMAIN-SUFFIX,bilibili.tv,Bilibili
 DOMAIN-SUFFIX,biligame.com,Bilibili
 DOMAIN-SUFFIX,biligame.net,Bilibili
 DOMAIN-SUFFIX,bilivideo.cn,Bilibili
@@ -20,6 +18,7 @@ DOMAIN-KEYWORD,bilibili,Bilibili
 DOMAIN-SUFFIX,hdslb.com,Bilibili
 DOMAIN-SUFFIX,im9.com,Bilibili
 DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
+DOMAIN-KEYWORD,cn-hk-eq-bcache-,Bilibili
 USER-AGENT,*bili*,Bilibili
 IP-CIDR,45.43.32.234/32,Bilibili,no-resolve
 IP-CIDR,119.29.29.29/32,Bilibili,no-resolve

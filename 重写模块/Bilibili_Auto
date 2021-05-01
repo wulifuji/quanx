@@ -1,0 +1,12 @@
+# For:哔哩哔哩自动切换
+
+
+# From:
+#      https://github.com/NobyDa/Script/blob/master/Surge/JS/Bili_Auto_Regions.js
+#      https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+
+
+hostname=ap?.bilibili.com
+
+
+^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
