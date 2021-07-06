@@ -1,6 +1,6 @@
 #dicarded
 
-hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.google.cn, link.zhihu.com
+hostname = mp.weixin.qq, *.google.com.cn, *.google.com.hk, *.google.cn
 
 
 # > 微信
@@ -9,7 +9,8 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.
 
 
 # > 彩云天气 Vip
-^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
+#hostname=biz.caiyunapp.com
+#^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
 
 
 # > 不明广告
@@ -24,4 +25,5 @@ hostname = mp.weixin.qq, biz.caiyunapp.com, *.google.com.cn, *.google.com.hk, *.
 
 
 # > zhihu direct 2 link
-^https?://link\.zhihu\.com/\?target=(https?)%3A//(.*) url 307 $1://$2
+#hostname=link.zhihu.com
+#^https?://link\.zhihu\.com/\?target=(https?)%3A//(.*) url 307 $1://$2
